@@ -13,5 +13,6 @@ Must have newest Docker of M4B-Tool installed as follows :
   - alias m4b-tool='docker run -it --rm -u $(id -u):$(id -g) -v "$(pwd)":/mnt sandreas/m4b-tool:latest'
   - m4b-tool --version
   - python3 merge_audio_to_m4b.py
+
 Once finsihed, use beets-audiobooks to tag and put M4B files to library
 
